@@ -50,10 +50,7 @@ class MyPoint {
 		Scanner input = new Scanner(System.in);
 		double distance = 0;
 		
-		System.out.println("Enter the X and Y coordinates for a point: ");
-		double newX = input.nextDouble();
-		double newY = input.nextDouble();
-		MyPoint customPoint = new MyPoint(newX, newY);
+		MyPoint customPoint = new MyPoint(0, 0);
 		
 		// Do Some Math
 		

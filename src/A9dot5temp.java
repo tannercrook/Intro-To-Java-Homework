@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
 
-public class A9dot5 {
+public class A9dot5temp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -23,7 +23,7 @@ public class A9dot5 {
 	
 	public static int[] count(String s)
 	{
-		int[] counts = new int[10];
+		int[] counts = new int[s.length()];
 		
 		for(int i = 0; i < s.length(); i++)
 		{
