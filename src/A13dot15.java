@@ -60,6 +60,16 @@ class drawPanel extends JPanel
 		g.setColor(Color.ORANGE);
 		g.fillArc(x, y, 2 * radius, 2 * radius, 216, 144);
 		
+		// SET LABELS
+		g.setColor(Color.BLACK);
+		g.drawString("Quizzes-- 10%", xCenter - 5, yCenter - radius);
+		
+		g.drawString("Midterms-- 30%", xCenter - radius, yCenter + 5);
+		
+		g.drawString("Projects-- 20%", xCenter + radius, yCenter -40);
+		
+		g.drawString("Final--  40%", xCenter - 3, yCenter + radius);
+		
 	}
 }
 
