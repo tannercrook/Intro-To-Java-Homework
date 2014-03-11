@@ -28,7 +28,7 @@ public class A9dot11 {
 				}
 			}
 		}
-		sorted = new String(string);
+		sorted = string.toString();
 		return sorted;
 	}
 
